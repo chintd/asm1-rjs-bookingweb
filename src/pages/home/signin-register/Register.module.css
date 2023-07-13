@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 51, 102);
+  height: 280px;
+  padding-top: 30px;
+}
+h1 {
+  margin-bottom: 30px;
+}
+.emailForm {
+  display: flex;
+  margin: 30px auto;
+  align-items: center;
+  justify-content: center;
+}
+.emailForm input {
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 350px;
+}
+.emailForm button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 50px;
+  text-align: center;
+  background-color: #1338be;
+  margin-left: 10px;
+}

@@ -1,0 +1,80 @@
+.greenText {
+  color: green;
+}
+.tag {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  width: 130px;
+  text-align: center;
+}
+.info-container {
+}
+.info-container h1 {
+  color: #1338be;
+}
+.rate {
+  background-color: rgb(4, 69, 134);
+  color: white;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  justify-content: center;
+}
+.btn {
+  background-color: #1338be;
+  border: none;
+  height: 40px;
+  width: 100%;
+  color: white;
+}
+.listItem {
+  float: right;
+  border: 1px solid grey;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 250px 2fr 1fr;
+  border-radius: 5px;
+  margin: 20px;
+  overflow: hidden;
+  gap: 10px;
+}
+.listItem img {
+  width: 250px;
+  height: 100%;
+  border-radius: 5px;
+}
+.rateHeading {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 190px;
+}
+.price {
+  text-align: right;
+}
+.listItem > div:last-child > p {
+  color: grey;
+  font-size: 14px;
+}
+@media (min-width: 1200px) {
+  .listItem {
+    width: 70%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1198px) {
+  .listItem {
+    width: 60%;
+  }
+}
+@media (max-width: 900px) {
+  .listItem {
+    width: 90%;
+  }
+  .container {
+    z-index: 1;
+    background-color: white;
+  }
+}

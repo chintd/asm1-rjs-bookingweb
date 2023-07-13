@@ -1,0 +1,33 @@
+.imgContainer {
+  width: auto;
+  margin: 10px auto;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 450px);
+  gap: 10px;
+}
+.imgContainer img {
+  overflow: hidden;
+  width: 450px;
+  height: 350px;
+}
+
+@media (min-width: 770px) and (max-width: 1100px) {
+  .imgContainer {
+    grid-template-columns: repeat(2, 400px);
+  }
+  .imgContainer img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .imgContainer {
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+  }
+  .imgContainer img {
+    width: 400px;
+  }
+}

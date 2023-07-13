@@ -1,0 +1,37 @@
+.container {
+  background-color: rgb(255, 165, 0);
+  padding: 10px;
+  display: block;
+  width: 280px;
+  height: 500px;
+  border-radius: 10px;
+  margin: 20px;
+  position: fixed;
+}
+.container h2 {
+  color: grey;
+}
+.inputForm {
+  height: 80px;
+  width: 100%;
+}
+.inputForm input {
+  border: none;
+  height: 50px;
+  width: 100%;
+  display: block;
+}
+.options {
+  display: grid;
+  grid-template-columns: auto 40px;
+  gap: 10px;
+  color: grey;
+}
+.btn {
+  width: 100%;
+  background-color: #1338be;
+  color: white;
+  border: none;
+  height: 40px;
+  margin-top: 20px;
+}

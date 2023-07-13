@@ -1,0 +1,42 @@
+.header-container {
+  height: 200px;
+  background-color: rgb(4, 69, 134);
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+.header-content {
+  padding: 10px;
+}
+.btn {
+  height: 33px;
+  background-color: #1338be;
+  color: white;
+  border: none;
+}
+.header-content > button:focus {
+  border: 1px solid white;
+}
+.search-container {
+  transform: translate(10%, 30%);
+  border: 2px solid rgb(255, 153, 0);
+  background-color: white;
+  border-radius: 5px;
+  height: auto;
+  width: 80%;
+}
+.search-container input {
+  margin-right: 25px;
+  border: none;
+  margin: 5px;
+  height: 40px;
+  width: 200px;
+}
+.search-container button {
+  margin: 10px auto;
+  float: right;
+  width: 10%;
+}
+.search-container input:focus {
+  border: 1px solid grey;
+}

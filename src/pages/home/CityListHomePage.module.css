@@ -1,0 +1,26 @@
+.container {
+  height: 280px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+}
+.city {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin: 10px;
+  justify-content: center;
+}
+.city img {
+  width: 100%;
+  transform: translate(0%, -40%);
+  z-index: -1;
+}
+.city .cityContent {
+  position: relative;
+  transform: translate(10%, 180%);
+  color: white;
+  width: 150px;
+  z-index: 1;
+}
